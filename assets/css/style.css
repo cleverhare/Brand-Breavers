@@ -453,6 +453,8 @@ body {
   background-position: center bottom;
   background-size: contain;
   z-index: -1;
+  filter: invert(1);
+  color: #faebd7e0;
 }
 @keyframes tilt-shaking {
   0% { transform: rotate(0deg); }
